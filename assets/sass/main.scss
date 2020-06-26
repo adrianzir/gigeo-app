@@ -1,0 +1,27 @@
+// imports
+// import abstracts
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+//import base
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+//import components
+@import "components/buttons";
+@import "components/navbar";
+@import "components/thumbnail";
+
+//import layout
+@import "layout/header";
+@import "layout/main-section";
+@import "layout/navigation";
+
+//import pages 
+
+//import themes
+
+//import vendors
+@import "vendors/bootstrap-og/bootstrap.scss";
+@import "vendors/font-awesome-4/font-awesome.scss";

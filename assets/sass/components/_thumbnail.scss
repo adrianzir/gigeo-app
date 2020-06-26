@@ -1,0 +1,25 @@
+.tiny-image{
+    border-radius: 100%;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.thumbnail__profile{
+    display: flex;
+    flex-direction: row;
+    .thumbnail-div__name{
+        margin-left: 1.5rem;
+        h3{
+            margin-bottom: 0;
+        }
+        p{
+            font-weight: 300;
+            color: rgb(175, 168, 168);
+            margin: 0;
+        }
+    }
+}
+.thumbnail{
+    padding: 1rem 4rem;
+    border-bottom: rgb(201, 198, 198) solid 1px;
+}
+

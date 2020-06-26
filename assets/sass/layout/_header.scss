@@ -1,0 +1,11 @@
+.header{
+    background-image: url(../images/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+    min-width: 100%;
+}
+.header__nothing >p{
+    display: none;
+}

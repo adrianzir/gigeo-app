@@ -1,0 +1,35 @@
+//thumbnail media query
+@media (max-width: 576px) {
+    .thumbnail__profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .thumbnail__buttons{
+        display: none;
+        .thumbnail__button{
+            display: none !important;
+        }
+    }
+    .thumbnail{
+        border: none !important;
+    }
+}
+//header media query
+@media (max-width: 576px) {
+    .header{
+        height: 5rem !important;
+    }
+}
+
+//main-section media query
+@media (max-width: 576px) {
+    .main-section{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
